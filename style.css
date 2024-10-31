@@ -17,7 +17,7 @@ nav {
     gap: 2rem;}
 
 nav a {
-    color: white; 
+    color: #ffffff; 
     text-decoration: none; 
     padding: 0.5rem 1rem; 
     border-radius: 4px; 
@@ -26,7 +26,7 @@ nav a {
 nav a:hover {
     background-color: #555;}
     
-.imagedefond { 
+.Acceuil{ 
     background-image: url("photo-1613019435367-6adf98fb2e44.jpg");
     background-color: grey;
     background-size: cover;
@@ -38,16 +38,20 @@ nav a:hover {
     position: absolute;  }
 .text1 {
     position: absolute;
-    bottom: 60px;
+    bottom: 90px;
     right: 20px;
     color: #adcce9;
-    font-size: 24px;
-    font-family: Arial, sans-serif;}
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;}
 .text2 {
     position: absolute;
     bottom: 20px;
     right: 20px;
     color: #db545a;
-    font-size: 24px;
-    font-family: Arial, sans-serif;   
+    font-size: 55px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
 }
