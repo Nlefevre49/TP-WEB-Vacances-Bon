@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-overflow: hidden;}
+    overflow: hidden;}
 
 header {
     background-color: #333; 
@@ -26,20 +26,25 @@ nav a {
 nav a:hover {
     background-color: #555;}
     
-    .imagedefond { 
+.imagedefond { 
     background-image: url("photo-1613019435367-6adf98fb2e44.jpg");
     background-color: grey;
     background-size: cover;
     background-position: center;
-    
-    }
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 66px;
+    position: absolute;  }
 .text1 {
+    position: absolute;
     bottom: 60px;
     right: 20px;
     color: #adcce9;
     font-size: 24px;
     font-family: Arial, sans-serif;}
 .text2 {
+    position: absolute;
     bottom: 20px;
     right: 20px;
     color: #db545a;
